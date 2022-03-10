@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  font-size: 62.5%;
+}
+
+.container {
+  max-width: 200rem;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: calc(2rem + 1vh);
+  margin-left: auto;
+  margin-right: auto;
+  font-size: calc(1.3rem + 0.5vw);
+  font-family: "PT Sans", sans-serif;
+  color: white;
+  padding: calc(2rem + 1vw);
+  width: 90%;
+  max-width: 85rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 25px;
+  text-align: center;
+}
+
+img {
+  max-width: calc(2.75rem + 1vw);
+  max-height: calc(2.75rem + 1vw);
+}
+
+.motivationIcons,
+.explanation {
+  max-width: calc(40rem + 1vw);
+  margin-top: calc(0.2rem + 1vw);
+  margin-bottom: calc(0.2rem + 1vw);
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+
+.motivationIcons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  padding: 1rem;
+}
+
+span {
+  text-align: center;
+}
+
+.explanation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding: 0.6rem;
+}
+
+.input-group {
+  margin-top: 1.2rem;
+  height: 2.5rem;
+  width: 9rem;
+}
+
+#button-addon1,
+#user_email {
+  font-size: calc(1rem + 0.5vw);
+}
+
+h2 {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+}
+
+#smileyFace {
+  padding-top: 1rem;
+}
